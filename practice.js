@@ -1,4 +1,3 @@
-console.log('hi' + ' you')
 // slice
 const cars = ['lada', 'bmw', 'volvo', 'fiat', 'honda']
 console.log(cars.slice(2,4));
