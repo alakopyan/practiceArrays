@@ -1,8 +1,8 @@
-let e = document.getElementById('selectOption')
+let select = document.getElementById('selectOption')
 
 function btnFunction() {
     const val = document.getElementById('numb').value;
-    let strUser = e.options[e.selectedIndex].text = val;
+    select.options[select.selectedIndex].text = val;
 }
 
 function myFunction() {
