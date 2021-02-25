@@ -36,10 +36,10 @@ function checkDeleteBtn(element) {
 
 function checkTodo(element) {
     let item = element.target.parentNode;
-    if (item.style.color == 'rgb(255, 0, 0)')
-        item.style.color = 'rgb(0, 0, 0)';
+    if (item.style.textDecoration == 'line-through')
+        item.style.textDecoration = 'none';
     else
-        item.style.color = 'rgb(255, 0, 0)';
+        item.style.textDecoration = 'line-through';
 }
 
 function deleteTodo(element) {
